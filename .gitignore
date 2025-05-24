@@ -1,2 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+
+# Virtual Environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+
+# VSCode / JetBrains IDEs
+.vscode/
+.idea/
+
+# OS / System files
+.DS_Store
+Thumbs.db
+
+# dotenv
 .env
-faiss_index/
+.env.*
+
+# Migrations / Database
+*.sqlite3
+*.db
+
+# Cache / build
+*.bak
+*.swp
+*.tmp
+*.log
+.cache/
+*.coverage
+htmlcov/
+dist/
+build/
+*.spec
+
+# Node (if you have a frontend too)
+node_modules/
+*.lock
+
+# Jupyter / notebooks (if any)
+.ipynb_checkpoints/
+*.ipynb
+
+# MyPy / Pyright / Pytest
+.mypy_cache/
+.pytest_cache/
+.pyright/
+
+# FastAPI / Uvicorn runtime
+*.pid
