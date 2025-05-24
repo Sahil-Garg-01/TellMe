@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+python-dotenv
+passlib[bcrypt]
+pydantic
+sqlalchemy
+python-jose
+langchain
+langchain-google-genai
+faiss-cpu
+langchain-community
+psycopg2-binary
