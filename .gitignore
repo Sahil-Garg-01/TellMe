@@ -58,3 +58,24 @@ node_modules/
 
 # FastAPI / Uvicorn runtime
 *.pid
+
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# VS Code
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
